@@ -1,17 +1,16 @@
-# 🐍 Nokia Snake Game - Gesture Control
+# Nokia Snake Game - Gesture Control
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.8+-green.svg)](https://opencv.org)
 [![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-orange.svg)](https://mediapipe.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Created by Tuba Khan**
 
-A classic Nokia Snake game controlled by hand gestures via webcam using MediaPipe and OpenCV. Experience the nostalgia of Nokia Snake with modern AI-powered gesture recognition!
+A classic Nokia Snake game controlled by hand gestures via webcam using MediaPipe and OpenCV. 
 
 ## Features
 
-### 🎮 Classic Nokia Snake Game
+### Classic Nokia Snake Game
 - **Authentic Nokia-style graphics** with green monochrome theme
 - **Grid-based movement** with rectangular snake segments
 - **Growing snake** mechanics - snake grows when eating fruit
@@ -19,14 +18,14 @@ A classic Nokia Snake game controlled by hand gestures via webcam using MediaPip
 - **Score tracking** - earn points by eating fruit
 - **Smooth animations** with particle effects
 
-### 👋 Hand Gesture Controls
+### Hand Gesture Controls
 - **MediaPipe hand tracking** for real-time gesture recognition
 - **Swipe gestures** - move hand up/down/left/right to control snake direction
 - **Pinch gesture** - bring thumb and index finger together for speed boost
 - **Face detection** - shows your face in the gesture window
 - **Visual feedback** - see hand landmarks and current direction
 
-### 🪟 Dual Window Interface
+### Dual Window Interface
 - **Game Window** - Classic Nokia Snake gameplay
 - **Gesture Window** - Live webcam feed with hand tracking visualization
 
