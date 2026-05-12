@@ -4,6 +4,7 @@ Classic snake game with Nokia-style graphics and mechanics
 """
 
 import pygame
+
 import random
 import math
 from typing import List, Tuple, Optional
