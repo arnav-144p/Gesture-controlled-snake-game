@@ -10,6 +10,7 @@ import os
 def install_package(package):
     """Install a package using pip"""
     try:
+        
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
         print(f"✓ Successfully installed {package}")
         return True
