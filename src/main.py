@@ -88,7 +88,6 @@ class GameManager:
         while self.running:
             current_time = time.time()
             
-            # Handle pygame events
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
@@ -96,24 +95,21 @@ class GameManager:
                     if event.key == pygame.K_ESCAPE:
                         self.running = False
             
-            # Apply gesture controls
+            
             if self.current_gesture:
                 self.game.change_direction(self.current_gesture)
                 if self.game.game_over:
                     self.game.handle_restart(self.current_gesture)
             
-            # Apply speed boost
             self.game.set_speed_boost(self.is_speed_boost)
             
-            # Update game at appropriate speed
             target_fps = self.game.get_current_speed()
             if current_time - last_update >= 1.0 / target_fps:
                 self.game.update()
                 last_update = current_time
             
-            # Draw game
             self.game.draw()
-            self.game.clock.tick(60)  # Display refresh rate
+            self.game.clock.tick(60)
         
         self.cleanup()
     
