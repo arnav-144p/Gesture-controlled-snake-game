@@ -20,6 +20,7 @@ def install_package(package):
 
 def check_package(package):
     """Check if a package is already installed"""
+    
     try:
         __import__(package.split('>=')[0].replace('-', '_'))
         return True
