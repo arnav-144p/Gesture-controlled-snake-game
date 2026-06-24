@@ -12,6 +12,7 @@ A classic Nokia Snake game controlled by hand gestures via webcam using MediaPip
 - **Collision detection** - game ends when hitting walls or self
 - **Score tracking** - earn points by eating fruit
 - **Smooth animations** with particle effects
+- 
 
 ### Hand Gesture Controls
 - **MediaPipe hand tracking** for real-time gesture recognition
