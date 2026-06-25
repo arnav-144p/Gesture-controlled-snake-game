@@ -31,6 +31,7 @@ class GestureController:
         
         # Gesture state tracking
         self.previous_position = None
+        
         self.gesture_threshold = 0.05
         self.current_direction = None
         self.gesture_cooldown = 0
